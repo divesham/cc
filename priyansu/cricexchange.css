@@ -376,3 +376,29 @@ hr{
     	display:none;
     }
 }
+
+/*new code*/
+body{
+  background-color: #ebebeb;
+}
+.li_match {
+  list-style-type:none;
+  margin-left:-40px;
+}
+.won{
+  padding: 4px;
+}
+.buttom_left{
+  padding-left: 10px;
+  list-style: none;
+}
+.img_size{
+  width:12px;
+   height:10px;
+}
+.inframe{
+  width:95%;padding-left:2.5%;height:40%;outline:none;border:none;
+}
+.time_ago{
+  margin-right:0px;
+}
