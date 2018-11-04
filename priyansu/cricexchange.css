@@ -1,0 +1,378 @@
+#live_matches{
+	width: 100%;
+  	height: 188px;
+  	border: solid 0.5px #979797;
+  	background-color: #fafafa;
+  	padding-top: 15px;
+  	padding-left: 0px;
+  	overflow-y: auto;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.live{
+	width: 42px;
+  	height: 16px;
+  	border-radius: 8px;
+  	background-color: #f5a623;
+  	padding-left: 10px;
+  	margin-left: 40px;
+}
+
+.live > span{
+  	font-family: Calibri;
+  	font-size: 11.7px;
+  	font-weight: bold;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: -0.1px;
+  	color: #ffffff;
+}
+
+.live_matches > span{
+  	font-family: Calibri;
+  	font-size: 13px;
+  	font-weight: bold;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: -0.1px;
+  	color: #000000;
+}
+
+#live_matches ul{
+  	display: inline-flex;
+}
+
+#live_matches ul li{
+	margin-left: 20px;
+}
+
+hr{
+	border-top: 1px solid #979797;
+	margin: 5px;
+}
+
+.current_matches{
+	width: 300px;
+  	height: 75px;
+}
+
+.current_match_sub{
+	width: 300px;
+  	height: 75px;
+  	object-fit: contain;
+  	border-radius: 50px;
+  	background-color: #ededed;
+  	margin-top:10px;
+  	padding:5px;
+}
+
+.team{
+	width:62px;
+	height:62px;
+	margin-left:5px;
+}
+
+.team2{
+	width:62px;
+	height:62px;
+	margin-left:10px;
+}
+
+.score{
+	line-height: 1.2;
+	padding-top: 7px;
+	margin-left: 10px;
+}
+
+.score2{
+	line-height: 1.2;
+	padding-top: 7px;
+	margin-left: 15px;
+}
+
+.vs{
+	width: 25px;
+  	height: 25px;
+  	border-radius:50%;
+  	background-color: #ffffff;
+  	margin-top:20px;
+  	margin-left:15px;
+}
+
+.vs > span{
+	padding:6px;
+}
+
+
+.team_name{
+	font-family: Calibri;
+  	font-size: 13px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #4a4a4a;
+}
+
+.team_over{
+	font-family: Calibri;
+  	font-size: 10.4px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: -0.1px;
+  	color: #000000;	
+}
+
+.team_score{
+	font-family: Calibri;
+  	font-size: 16.9px;
+  	font-weight: 600;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #4a4a4a;
+}
+
+
+.current_match_sub2{
+	margin-left: 30px;
+	margin-top:10px;
+}
+
+.sub2_sub1{
+	width: 175px;
+  	height: 21px;
+  	background-color: #ededed;
+}
+
+.sub2_sub2{
+	width: 35px;
+  	height: 21px;
+  	background-color: #ffcccc;	
+}
+
+.sub2_sub3{
+	width: 35px;
+  	height: 21px;
+  	background-color: #ccddff;
+}
+
+.sub2_sub1,.sub2_sub2,.sub2_sub3 > span{
+  	font-family: Calibri;
+  	font-size: 13px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #000;
+  	padding:4px;
+}
+
+.result{
+  	font-family: Calibri;
+  	font-size: 14px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: -0.1px;
+  	color: #4a90e2;
+  	margin-left:90px;
+}
+
+#menu_bar{
+	border-radius:0px;
+	margin-bottom: 0px;
+}
+
+#menu_bar > div > div > a{
+	font-family: Calibri;
+  	font-size: 20px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: -0.1px;
+  	color: #ffffff;
+}
+
+#menu > ul > li > a{
+	opacity: 0.91;
+  	font-family: Arial;
+  	font-size: 16px;
+  	font-weight: bold;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: -0.1px;
+  	color: #ffffff;
+}
+
+#home_page{
+	width:90vw;
+}
+
+#key_series,#icc_rankings,#news,#latest_headline,#featured_videos,#like_follow{
+	border-radius: 8px;
+  	background-color: #fafafa;
+  	box-shadow: 1px 1px 4px -2px rgba(0, 0, 0, 0.5);
+  	padding:1px;
+  	padding-right:10px;
+  	margin-top:15px;
+  	padding-bottom:10px; 
+}
+
+.left_flank_head{
+	font-family: Calibri;
+  	font-size: 15px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #4a4a4a;
+}
+
+#key_series > ul > li{
+	margin-top:5px;
+}
+
+.see_all{
+	font-family: Calibri;
+  	font-size: 13px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #4a90e2;
+}
+
+.main_news_head{
+	font-family: Calibri;
+  	font-size: 2vw;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #4a4a4a;
+}
+
+.time{
+	font-family: Calibri;
+  	font-size: 11px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #4a90e2;
+}
+
+.first_show{
+	padding-left: 10px;
+	padding-top:0px;
+	margin-top:-5px;
+}
+
+.first_show > p{
+	font-family: Calibri;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #5d5d5d;
+}
+
+.read{
+	font-size: 13px;
+  	color: #d0021b;
+}
+
+#show_more{
+	display: none;
+}
+
+.sub_news_head{
+	font-family: Calibri;
+  	font-size: 20px;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #4a4a4a;
+}
+
+.like{
+	font-family: Calibri;
+  	font-size: 18px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #4a4a4a;
+}
+
+.like_sub1{
+	font-family: Calibri;
+  	font-size: 15px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #4a4a4a;
+}
+
+.like_sub2{
+	font-family: Calibri;
+  	font-size: 15px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #949494;
+}
+
+#like_follow > ul > li{
+    margin-top: 10px;
+}
+
+#like_follow > ul >  li:first-child {
+    margin-top:0;
+}
+
+.footer{
+	width: 100%;
+  	height: 20px;
+  	background-color: #262626;
+  	margin-top:20px;
+  	overflow-y: auto;
+}
+
+@media (max-width: 500px) 
+{
+    .main_news_head
+    {
+        font-size:20px;
+    }
+    #left_flank{
+    	display:none;
+    }
+}
